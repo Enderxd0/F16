@@ -1,0 +1,11 @@
+Para poder verificar el funcionamiento de los potenciómetros conectados a los pines A0 y A1, etc. sigue estos pasos:
+1. Asegúrate de tener el IDE de Arduino instalado en tu computadora.
+2. Conecta la placa de Arduino a tu computadora mediante un cable USB.
+3. Abre el IDE de Arduino y selecciona el puerto correspondiente a tu placa.
+4. Carga el código en la placa de Arduino.
+5. Abre el monitor serial en el IDE de Arduino para ver los valores leídos desde los potenciómetros.
+6. Gira los potenciómetros y observa cómo cambian los valores en el monitor serial si cambian correctamente, significa que los potenciómetros están funcionando correctamente y que la entrada del usuario se está capturando de manera precisa en el sistema.
+
+Info: en algunos casos los potenciometro varian entre 0-1024 otros en -32768 a 32767, dependiendo del tipo de potenciómetro y la configuración del ADC (Convertidor Analógico a Digital) en la placa de Arduino. Asegúrate de tener en cuenta estos rangos al interpretar los valores leídos.
+        en base a esto otros como los joystick de consola tienen un valor neutro fisico de 512 pero en tu hotas casero puede ser otro fisico, por ejemplo N 722 entonses en base a este habran un minimo y maximo fisico lo que deberas cambiar el codigo y adaptarlo a las posiciones neutras fisicas a las neutras del virtual
+        para que el sistema interprete correctamente los movimientos del usuario.
