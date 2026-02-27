@@ -1,0 +1,155 @@
+position/
+  longitude-deg           # longitud en grados
+  latitude-deg            # latitud en grados
+  altitude-ft             # altitud sobre el nivel del mar
+  altitude-agl-ft         # altitud sobre terreno
+  ground-elev-m           # elevación terreno
+  ground-elev-ft
+  latitude-string
+  longitude-string
+  sea-level-radius-ft
+
+orientation/
+  pitch-deg               # cabeceo
+  roll-deg                # alabeo
+  heading-deg             # rumbo geomagnético
+  alpha-deg               # ángulo de ataque
+  side-slip-deg           # ángulo de deslizamiento
+  p-body                  # roll rate body
+  q-body                  # pitch rate body
+  r-body                  # yaw rate body
+  yaw-deg
+  heading-magnetic-deg
+  track-deg
+
+velocities/
+  uBody-fps               # velocidad en X del cuerpo
+  vBody-fps               # velocidad en Y del cuerpo
+  wBody-fps               # velocidad en Z del cuerpo
+  airspeed-kt             # velocidad aire nudos
+  mach                    # número Mach
+  groundspeed-kt          # velocidad respecto suelo
+  vertical-speed-fps      # velocidad vertical
+  speed-north-fps
+  speed-east-fps
+  speed-down-fps
+  equivalent-kt
+  glideslope
+
+controls/
+  flight/                 # eje de vuelo: pitch, roll, yaw
+  engines/
+  gear/
+  lighting/
+  radios/
+  anti-ice/
+  smoke                   # true/false
+  armament/
+  fuel/
+  MFD/
+  HUD/
+  seat/
+  radar/
+  autoflight/
+  icp/
+  hydraulic/
+  electric/
+  pneumatic/
+  pressurization/
+  APU/
+  switches/
+
+f16/engine/
+  ctl-sec                 # seguridad control
+  feed                    # cantidad de combustible
+  jet-fuel
+  running-state           # true si motor encendido
+  ab-reset
+  max-power
+  eec-switch
+  jfs-rpm-normalized
+  sec-self-test
+  cutoff-release-lever
+  jfs-spool-up-start1-s
+  jfs-spool-up-start2-s
+  jfs-full-speed
+  jfs-start-switch
+
+engines/engine/          # motor principal
+  augmentation
+  n1
+  n2
+  cranking
+  running
+  ftit-degc
+  egt-degf
+  thrust_lb
+  fuel-flow_pph
+  rated-mil-dry
+  n2-low
+  oil-pressure-psi
+  water-injection
+  ignition
+  inlet-pos-norm
+  reversed
+  cutoff
+  epr
+  fuel-consumed-lbs
+  starter
+  out-of-fuel
+
+gear/
+  gear[1-9]              # estado de cada tren
+  tailhook
+  launchbar
+  serviceable
+
+f16/
+  fcs/                    # flight control system
+  avionics/
+  hud/
+  cockpit/
+  ded/                    # displays
+  radar_system/
+  radar/
+  autopilot/
+
+environment/
+  weather-scenario        # "Fair weather", etc.
+  wind-speed-kt
+  wind-from-heading-deg
+  temperature-degc
+  pressure-sea-level-inhg
+  relative-humidity
+  visibility-m
+  cloudlayers/
+  precipitation-control/
+  turbulence/
+  snow-level-m
+
+local-weather/
+  cloud-shadows/
+  lightning/
+  config/
+  tmp/
+
+accelerations/
+  pilot-g                 # aceleración g piloto
+  pilot-gdamped
+  nlf
+  ned/
+  n-z-cg-fps_sec
+
+damage/
+  sounds/
+  fire/
+  sound/
+
+nasal/
+  controls/
+  autoflight/
+  f16/
+  displays/
+  ai/
+  damage/
+  gui/
