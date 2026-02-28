@@ -1,2 +1,0 @@
-Lee el arbol de propiedades del cockpit desde un archivo XML y lo convierte en un diccionario de Python.
-esta info es utilizada para configurar y personalizar la interfaz del cockpit en simuladores de vuelo o aplicaciones relacionadas con la aviación. El archivo XML contiene información estructurada sobre los diferentes elementos del cockpit, como indicadores, controles y pantallas, que se pueden mapear a un diccionario de Python para facilitar su manipulación y acceso en el código.

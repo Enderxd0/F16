@@ -1,0 +1,6 @@
+El Python Test 6a son seis Axis Digitales, que incluyen A0, A1, A2, A3, A4 y A5.
+Estos pines se utilizan para leer la posición de los potenciómetros conectados
+a ellos, permitiendo un control más completo de diferentes funciones en un simulador
+de vuelo. Al igual que en el Test 2a, el código de prueba verifica que los valores
+leídos desde los potenciómetros coincidan con sus posiciones físicas, garantizando
+una entrada precisa del usuario en el sistema.

@@ -1,0 +1,6 @@
+El Python Test 2a son solo dos Axis Digitales, el A0 y el A1, que se utilizan para 
+leer la posición de los potenciómetros conectados a esos pines. Estos potenciómetros
+pueden representar diferentes controles en un simulador de vuelo, como el timón o 
+los alerones. El código de prueba permite verificar que los valores leídos desde los
+potenciómetros se correspondan con las posiciones físicas de los mismos, asegurando
+que la entrada del usuario se capture correctamente en el sistema.

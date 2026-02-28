@@ -1,0 +1,6 @@
+Lee el arbol de propiedades del cockpit desde un archivo XML y lo convierte en un diccionario de Python.
+esta info es utilizada para configurar y personalizar la interfaz del cockpit en simuladores de vuelo o aplicaciones
+relacionadas con la aviación. El archivo TXT contiene información estructurada sobre los diferentes elementos del cockpit 
+como indicadores, controles y pantallas, que se pueden mapear a un diccionario de Python para facilitar su manipulación y acceso en el código.
+
+Este fg_tree.txt es propio de mi modelo de mi cockpit, y puede variar según el diseño y la configuración de cada usuario.

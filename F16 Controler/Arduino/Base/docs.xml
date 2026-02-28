@@ -1,0 +1,4 @@
+Este nesesita un ensamblador para poder compilar el código de Arduino 
+y cargarlo en la placa correspondiente. Asegúrate de tener instalado 
+el IDE de Arduino y los controladores necesarios para tu placa antes 
+de intentar compilar y cargar el código.
