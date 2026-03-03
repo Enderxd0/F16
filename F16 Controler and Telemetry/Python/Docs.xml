@@ -1,0 +1,2 @@
+En el codigo Py D5 utilizaremos todos los pines y anaogicos para el joystick exepto el pin 5 que es el que utilizaremos para la señal de salida del motor. en este caso es pwm pin 5 para el servo
+el cual movera la telemetrya del f16 y sus RPM
